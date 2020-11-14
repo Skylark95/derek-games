@@ -54,6 +54,9 @@ export default function Album() {
           <Grid container spacing={4}>
             <ProfileCard id="steam" title="Steam" />
             <ProfileCard id="gog" title="GOG.com" />
+            <ProfileCard id="isthereanydeal" title="IsThereAnyDeal" />
+            <ProfileCard id="boardgamearena" title="Board Game Arena" />
+            <ProfileCard id="roll20" title="Roll20" />
           </Grid>
         </Container>
       </main>
