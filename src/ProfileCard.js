@@ -35,7 +35,7 @@ export default function ProfileCard(props) {
         <CardMedia
           className={classes.cardMedia}
           image={`/${props.id}.jpg`}
-          title="Steam"
+          title={props.title}
         />
         <CardContent className={classes.cardContent}>
           <Typography gutterBottom variant="h5" component="h2">
